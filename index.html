@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KinoHub </title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<header>
+  <!-- Header ichida logo va nav orasiga qo'shing -->
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+
+
+<div class="logo">KinoHub</div>
+<nav>
+<a href="#premieres">Premieres</a>
+<a href="#action">Action movies</a>
+<a href="#horrors">Horrors</a>
+<a href="#cartoons">Cartoons</a>
+</nav>
+</header>
+
+<div class="showcase">
+<input class="search" placeholder="Qidirish..." oninput="filterMovies(this.value)" />
+<div class="slider-container">
+
+<div class="slider" id="slider">
+
+<div class="slide active">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/urRwoKtI8yE?si=c3ppgMa9bW16KHJ9&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="slide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sl8mhV0OQGE?si=BegHEThOBLca6EqZ&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="slide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BGtRTFP2vBU?si=KRs3z4baGKagEW9D&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="slide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zx_vvhsxcYo?si=hyvqXr47qUO5Ab_E&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<button class="prev">‹</button>
+<button class="next">›</button>
+
+</div>
+
+</div>
+
+<section id="premieres">
+<h2> Premieres</h2>
+<div class="flexBoxCards movies">
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/KRolUvsTrA8?si=CO5T3TiNuz22KZ4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><h4>Русский хищник 2026 "Боевик "</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/TRc6plsjjfc?si=Gi6AVT2vR6cwQb6m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Протокол "Зачиска"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/GMpYMOHYSnk?si=HxRLTOYG59VhZ_2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Совершенно секретно  </h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/6WjwWEt86WE?si=SVkpmzOXCjUde-BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Другая реальность</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/_M-I1x-lE5k?si=KQ-bU3lrPGEEBCfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>После конца всего</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/FXqklb6srOY?si=JS5WXhl17AvLD_hf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Земля "Перезагрузка"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/kZOGbH1VFZE?si=qEvyHGpyG66qLfpG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Последние дни Земли</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/pPxCrNlHapk?si=eMfNfIRuGXTNm_Ki" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>На краю Земли</h4></div>
+</div>
+</section>
+
+<section id="action">
+<h2> Action movies</h2>
+<div class="flexBoxCards movies">
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/NggH9Ihsj0c?si=KWzW3Unljbsy4nKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4> Бывшых не бывает</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/8tg2cen44V4?si=V2VbXE2pbui-QvYT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Боевик "Про Профиссианального киллера"</h4></div>
+<div class="card"> <iframe width="560" height="315" src="https://www.youtube.com/embed/nB1auaa3F_M?si=H1zPaWfPTmfhQxRr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Неоспоримый 4</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/cJgfwh0gy9o?si=k2i_IB2Pp7wylmwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Сердце из стали</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/a7asWCX855k?si=-LO9gnE0GOx4ldTd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Побег из тюрьмы ради одной цели...</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/6W_Qrhhi3Y8?si=2LxIVLPvxbgXIq4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Ип Ман 4</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/LIja8H_NE2Y?si=ai-V-XT-wUUiSAZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Криминальный город 2</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/OMLhcbnX_0E?si=KK2i2CCBiNEtPr93" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Белый тигр</h4></div>
+</div>
+</section>
+
+<section id="horrors">
+<h2> Horrors</h2>
+<div class="flexBoxCards movies">
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/N9fGXS9qBb4?si=IwbY7NXlUiHBIZWX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Мегаладон</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/puWrZ0jQ7E4?si=jCEpyU_4AyWb9o3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Астрал "Могильный ритуал"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/Z7OASZMyVoU?si=porm0W5whnDVba0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Заклятие "Дом 32"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/bh0abiff97g?si=ycnUCwfuBeMRGfUl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Хищник "Выжыть до рассвета"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/AFC7b_XNB_A?si=r82BVIerCPqmKVjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Бугимен</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/jM7BeqJHdVo?si=1AazU9h0wQCVYAFL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Шкатулка Дьявола</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/kVbIXw1doas?si=5y0piP_69YNrnSLd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Проклятый Дом 3</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/-cNi3McdHhs?si=KTZ6jBRB6P5BRY6T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Последний поворот</h4></div>
+</div>
+</section>
+
+<section id="cartoons">
+<h2> Cartoons </h2>
+<div class="flexBoxCards movies">
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/W9C1uYvsYuo?si=2Z6oMPJiMTdC7XIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4> Упс... ной уплыл "1 серия"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/4M8iocUV8KI?si=GTC90vw1tPRbRrWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Иван цареевич и Серый волк "все серии подряд"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/3N29gPDRooY?si=6iay6CB2pLw5nMLl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Стань легендой! "Бигфут младший"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/RlOyfrN7ex0?si=E-y5mnqQ297i_s-C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <h4>Маугли дикой планеты</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/_A4FuMWYXJc?si=P11cwGYgKf0g4NYp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Большой собачий побег</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/yYKW1DOsDE0?si=v7zioEmbqLoxDown" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Три богатыря "Ход конём"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/xY81lkFB57A?si=TTxO1erXtkmkmTqZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Айнабо "Сердце Амазонии"</h4></div>
+<div class="card"><iframe width="560" height="315" src="https://www.youtube.com/embed/z2Gw8cJNg2Y?si=IHbdyMl28QYcmNpF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe><h4>Вверх</h4></div>
+</div>
+</section>   
+
+<footer>© 2026 KinoHub </footer>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
